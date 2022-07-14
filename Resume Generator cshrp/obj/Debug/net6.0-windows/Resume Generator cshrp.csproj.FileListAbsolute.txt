@@ -1,0 +1,22 @@
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\Resume Generator cshrp.exe
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\Resume Generator cshrp.deps.json
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\Resume Generator cshrp.runtimeconfig.json
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\Resume Generator cshrp.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\Resume Generator cshrp.pdb
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\PdfSharp.Charting.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\PdfSharp.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume_Generator_cshrp.Form1.resources
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.AssemblyInfo.cs
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.csproj.CopyComplete
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\refint\Resume Generator cshrp.dll
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.pdb
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\Resume Generator cshrp.genruntimeconfig.cache
+C:\Users\PC\source\repos\Resume Generator cshrp\Resume Generator cshrp\obj\Debug\net6.0-windows\ref\Resume Generator cshrp.dll
