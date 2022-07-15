@@ -1,3 +1,4 @@
+
 {
   "Name": "Rommuel U. Rivera",
   "Birthday": "May 30, 2003",
@@ -5,11 +6,11 @@
   "Email_Address": "rommuelrivera3@gmail.com",
   "Address": "Blk 1 Lot 45 Victoria Hms. Gen. T. De Leon, Valenzuela City",
   "College": "Polytechnic University of the Philippines - Manila",
-  "Collegestat": "First-year, Bachelor of Science in Computer Engineering (2021 - Present)",
+  "Attainment_College": "First-year, Bachelor of Science in Computer Engineering (2021 - Present)",
   "SeniorHighSchool": "Pamantasan ng Lungsod ng Valenzuela",
-  "SHSstat": "Science, Technology, Engineering, and Mathematics Strand (STEM) Graduate (2019 - 2021)",
+  "Attainment_SHS": "Science, Technology, Engineering, and Mathematics Strand (STEM) Graduate (2019 - 2021)",
   "JuniorHighSchool": "Our Lady of Lourdes College",
-  "JHSstat": "Junior High-School Graduate (2008 - 2019)",
+  "Attainment_JHS": "Junior High-School Graduate (2008 - 2019)",
   "Award1": "Pamantasan ng Lungsod ng Valenzuela Senior High-School Graduate, With High Honors - 2021",
   "Award2": "Our Lady of Lourdes College (OLLC) Junior High School Graduate, With High Honors - 2021",
   "Certificate1": "AccessLite Certificate of Participation – Basic Electronics Webinar - 2022",

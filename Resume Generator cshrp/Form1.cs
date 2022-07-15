@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.IO;
 
+
 namespace Resume_Generator_cshrp
 {
     //This is the new one
@@ -18,27 +19,32 @@ namespace Resume_Generator_cshrp
             string filename = "ResumeData.json";
             string jsonstring = File.ReadAllText(filename);
             ResumeInfo resumeinfo = JsonSerializer.Deserialize<ResumeInfo>(jsonstring)!;
+            string name = resumeinfo.Name;
+            MessageBox.Show(name);
+
 
         }
 
         private void Generatebtn_Click(object sender, EventArgs e)
         {
-            using (SaveFileDialog sfd = new SaveFileDialog())
+            //Defining Resume Information
+            
+            //using (SaveFileDialog sfd = new SaveFileDialog())
             {
-                sfd.Filter = "PDF|*.pdf";
-                if (sfd.ShowDialog() == DialogResult.OK)
+                //sfd.Filter = "PDF|*.pdf";
+                //if (sfd.ShowDialog() == DialogResult.OK)
                 {
-                    PdfDocument pdf = new PdfDocument();
-                    sfd.FileName = "RIVERA_ROMMUEL";
-                    pdf.Info.Title = "Resume";
-                    PdfPage page = pdf.AddPage();
+                    //PdfDocument pdf = new PdfDocument();
+                    //sfd.FileName = "RIVERA_ROMMUEL";
+                    //pdf.Info.Title = "Resume";
+                   // PdfPage page = pdf.AddPage();
 
-                    XGraphics graph = XGraphics.FromPdfPage(page);
-                    XFont font = new XFont("Verdana", 18, XFontStyle.Regular);
+                    //XGraphics graph = XGraphics.FromPdfPage(page);
+                    //XFont font = new XFont("Verdana", 18, XFontStyle.Regular);
 
                     
 
-                    pdf.Save(sfd.FileName);
+                   // pdf.Save(sfd.FileName);
 
                 }
             }
