@@ -48,7 +48,7 @@ namespace Resume_Generator_cshrp
             string sk3 = resumeinfo.Skill3;
             string sk4 = resumeinfo.Skill4;
             string sk5 = resumeinfo.Skill5;
-            MessageBox.Show(name);
+            MessageBox.Show("Resume for: " + name);
 
             using (SaveFileDialog sfd = new SaveFileDialog())
             {
@@ -61,41 +61,42 @@ namespace Resume_Generator_cshrp
                     PdfPage page = pdf.AddPage();
 
                     XGraphics graph = XGraphics.FromPdfPage(page);
-                    XFont lala = new XFont("Verdana", 18, XFontStyle.Regular);
-                    
+                    XFont basic = new XFont("Verdana", 11, XFontStyle.Regular);
+                    XFont boldf = new XFont("Verdana", 15, XFontStyle.Bold);
+                    XFont smallbold = new XFont("Verdana", 13, XFontStyle.Bold);
                     //PDF Contents
-                    graph.DrawString(name, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(birthday, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(contact_num, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(email, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(address, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString(name, boldf, XBrushes.Black, new XRect(10, 0, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(birthday, basic, XBrushes.Black, new XRect(10, 15, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(contact_num, basic, XBrushes.Black, new XRect(10, 30, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(email, basic, XBrushes.Black, new XRect(10, 45, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(address, basic, XBrushes.Black, new XRect(10, 60, page.Width, page.Height), XStringFormats.TopLeft);
 
-                    graph.DrawString(" ", lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString(" ", basic, XBrushes.Black, new XRect(0, 70, page.Width, page.Height), XStringFormats.TopLeft);
 
-                    graph.DrawString("Education:", lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(college, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(c_attainment, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(shs, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(shs_attainment, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(jhs, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(jhs_attainment, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString("Education:", boldf, XBrushes.Black, new XRect(10, 80, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(college, smallbold, XBrushes.Black, new XRect(10, 95, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(c_attainment, basic, XBrushes.Black, new XRect(10, 110, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(shs, smallbold, XBrushes.Black, new XRect(10, 125, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(shs_attainment, basic, XBrushes.Black, new XRect(10, 140, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(jhs, smallbold, XBrushes.Black, new XRect(10, 155, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(jhs_attainment, basic, XBrushes.Black, new XRect(10, 170, page.Width, page.Height), XStringFormats.TopLeft);
 
-                    graph.DrawString(" ", lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString(" ", basic, XBrushes.Black, new XRect(0, 195, page.Width, page.Height), XStringFormats.TopLeft);
 
-                    graph.DrawString("Awards and Certificates:", lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(award1, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(award2, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(cert1, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(cert2, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString("Awards and Certificates:", boldf, XBrushes.Black, new XRect(10, 205, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(award1, basic, XBrushes.Black, new XRect(10, 220, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(award2, basic, XBrushes.Black, new XRect(10, 235, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(cert1, basic, XBrushes.Black, new XRect(10, 250, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(cert2, basic, XBrushes.Black, new XRect(10, 265, page.Width, page.Height), XStringFormats.TopLeft);
 
-                    graph.DrawString(" ", lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString(" ", basic, XBrushes.Black, new XRect(0, 275, page.Width.Point, page.Height.Point), XStringFormats.TopLeft);
 
-                    graph.DrawString("Skills:", lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(sk1, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(sk2, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(sk3, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(sk4, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
-                    graph.DrawString(sk5, lala, XBrushes.Black, new XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.BaseLineLeft);
+                    graph.DrawString("Skills:", boldf, XBrushes.Black, new XRect(10, 285, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(sk1, basic, XBrushes.Black, new XRect(10, 300, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(sk2, basic, XBrushes.Black, new XRect(10, 315, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(sk3, basic, XBrushes.Black, new XRect(10, 330, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(sk4, basic, XBrushes.Black, new XRect(10, 345, page.Width, page.Height), XStringFormats.TopLeft);
+                    graph.DrawString(sk5, basic, XBrushes.Black, new XRect(10, 360, page.Width, page.Height), XStringFormats.TopLeft);
 
                     pdf.Save(sfd.FileName);
 
